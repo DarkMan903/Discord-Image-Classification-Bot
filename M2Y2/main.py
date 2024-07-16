@@ -103,8 +103,7 @@ async def images(ctx):
                 print('Картинка распознана')
             else:
                 print("Картинка не распознана")
-            detect_maniak(attachment.filename)
-            name = detect_maniak()
+            name = detect_maniak(attachment.filename)
             if name == 'Охотник':
                 print('Бла бла бла')
     else:
